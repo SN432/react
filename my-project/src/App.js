@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import MyCircle from './components/circle';
+import CircleCom from './components/CircleCom';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <div className='div'><MyCircle /></div>
+        <div className='div'><CircleCom /></div>
       </header>
       
      
