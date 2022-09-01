@@ -21,6 +21,7 @@ const CircleCom = ()=>{
 
   const Mytext=(props)=>{
     const color = props.name;
+    
     return <h2 className="num" style={{color: color}}>{Counts}</h2>
   }
    return (
